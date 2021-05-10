@@ -1,0 +1,37 @@
+.App {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  text-align: center;
+  height: 95vh;
+  align-items: center;
+  justify-content: center;
+}
+.answer {
+  border: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  text-align: left;
+  padding: 1em;
+  margin: 1.5em;
+  display: flex;
+  align-items: center;
+  letter-spacing: 2px;
+}
+.keynum {
+  border: 1px;
+  border-style: solid;
+  padding: 0.3em;
+  margin-right: 1em;
+}
+.question {
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  padding: 1em;
+}
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
